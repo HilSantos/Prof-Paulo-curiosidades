@@ -8,10 +8,14 @@
     <style>
       h2{
         background-color: #c026c0;
-        background-image: url(Multimidia/back-bolinha.gif);
-        background-repeat: repeat;
-        background-position: center center;
+        background-image: url(Multimidia/importante-saber.jpg), url(Multimidia/back-bolinha.gif);
+        background-repeat: no-repeat, repeat;
+        background-position: center right, center center;
         color: #fff;
+        font-size: 2.5em;
+        letter-spacing: 0.1em;
+        width: 470px;
+        padding: 61px 400px 61px 100px;
       }
     </style>
   </head>
