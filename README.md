@@ -8,7 +8,7 @@
 <script src="interacao/html5shiv.min.js"></script>
 <link rel="stylesheet" href="estilos/principal.css">      
 <style>
-h2{
+#curiosidades main h2{
 background-color: #c026c0;
 background-image: url(Multimidia/importante-saber.jpg), url(Multimidia/back-bolinha.gif);
 background-repeat: no-repeat, repeat;
@@ -19,74 +19,74 @@ letter-spacing: 0.1em;
 width: 470px;
 padding: 61px 400px 61px 100px;
 }
-figure{
+#curiosidades main figure{
 border: #c0262c solid thin;
 border-radius: 35px 35px 0 0;
 padding: 20px 0 0;
 text-align: center;
 }
-figcaption{
+#curiosidades main figcaption{
 background-color: #c0262c;
 padding: 7px 0;
 color: #ffffff;
 font-size: 1.5em;
 }
-ul li{
+#curiosidades main ul li{
 list-style-type: none;
 list-style-image: url(Multimidia/ossinho.png);
 list-style-position: inside;
 margin: 30px 0;
 }
-dt{
+#curiosidades main dt{
 color: #fff;
 background-color: #c0262c;
 padding: 7px;
 }
-dd{
+#curiosidades main dd{
 border: thin #c0262c solid;
 border-radius: 0 0 25px 25px;
 margin-top: -3px;
 margin-bottom: 30px;
 padding: 20px 20px 0;
 }
-ol{
+#curiosidades main ol{
 list-style-type: none;
 white-space: pre;
 line-height: 0.3em;
 counter-reset: contador;
 }
-ol li:before{
+#curiosidades main ol li:before{
 color: #999999;
 counter-increment: contador;
 content: "Questão" counter(contador) " \00BB ";
 }
-ul li a{
+#curiosidades main ul li a{
 text-decoration: none;
 color: #c0262c;
 font-weight: bold;
 padding: 7x;
 }
-ul li a:hover{
+#curiosidades main ul li a:hover{
 text-decoration: underline;
 }
-dd a[target="_blank"]{
+#curiosidades main dd a[target="_blank"]{
 text-decoration: none;
 color: #02620c;
 font-weight: bold;
 padding: 7px;
 display: inline-block;
 }
-dd a[target="_blank"]:hover{
+#curiosidades main dd a[target="_blank"]:hover{
 text-decoration: underline;
 }
-dd a[href="#top"]{
+#curiosidades main dd a[href="#top"]{
 text-decoration: none;
 color: #c0262c;
 font-weight: bold;
 padding: 7px 0 7px 30px;
 background: url(Multimidia/seta-voltar.png) no-repeat left center;
 }
-dd a[href="#top"]:hover{
+#curiosidades main dd a[href="#top"]:hover{
 text-decoration: underline;
 background: url(Multimidia/seta-voltar-hover.png) no-repeat left center;
 }
