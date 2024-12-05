@@ -93,7 +93,7 @@ background: url(Multimidia/seta-voltar-hover.png) no-repeat left center;
 
 </style>
 </head>
-<body>
+<body id="curiosidades">
 <header>
       <h1>Meu amigo cão - Petshop</h1>
       <div id="anuncio">
